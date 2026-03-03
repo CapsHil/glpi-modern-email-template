@@ -1,6 +1,5 @@
 # Modern GLPI Email Templates (HTML/CSS)
 
-
 <img width="1280" height="720" alt="GLPI Emails Template" src="https://github.com/user-attachments/assets/c3576a7a-364d-4c66-b784-b2282291a754" />
 
 ## Description
@@ -12,10 +11,15 @@ Fini les emails par défaut illisibles sur mobile.
 - ✅ Compatible Gmail, Outlook, Apple Mail
 - ✅ Installation facile (Copier/Coller)
 
+## Aperçu
+| Avant (Défaut) | Après (Premium Pack) |
+| :---: | :---: |
+| <img width="350" alt="Screenshot 2026-03-03 162909" src="https://github.com/user-attachments/assets/1bf1c561-8727-4b7a-942b-7abf07bd26ac" /> | <img width="350" alt="Screenshot 2026-03-03 162929" src="https://github.com/user-attachments/assets/f95302ff-b3ee-437b-b9e9-d4baf3005e45" />|
+
 ## 📥 Téléchargement
 
 ### Version Gratuite (Demo)
-Ce dépôt contient le template "Nouveau Ticket" (Thème Bleu). Vous pouvez copier le code dans `free_template.html`.
+Ce dépôt contient le template "Nouveau Ticket" sans logo personnalisé. Vous pouvez copier le code dans `free_template.html`.
 
 ### 🚀 Version Premium (Pack Complet)
 Vous voulez le pack complet ?
