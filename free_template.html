@@ -1,0 +1,44 @@
+<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+<div style="background-color: #004d99; color: #ffffff; padding: 20px; text-align: center;">
+<h2 style="margin: 0; font-family: 'Segoe UI', sans-serif; font-weight: normal; font-size: 24px;">[##ticket.id##] Nouvel Incident</h2>
+</div>
+<div style="padding: 30px; background-color: #f9f9f9;">
+<p style="color: #333; font-size: 16px;">Bonjour ##ticket.authors##,</p>
+<p style="color: #555; font-size: 15px; line-height: 1.5;">Votre demande a bien été prise en compte par le support IT. Un technicien va analyser votre problème dans les plus brefs délais.</p>
+<div style="background-color: #ffffff; border-left: 5px solid #004d99; padding: 15px; margin: 25px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="padding: 5px 0; color: #888; width: 100px;">Titre :</td>
+<td style="padding: 5px 0; color: #333; font-weight: bold;">##ticket.title##</td>
+</tr>
+<tr>
+<td style="padding: 5px 0; color: #888;">Date :</td>
+<td style="padding: 5px 0; color: #333;">##ticket.creationdate##</td>
+</tr>
+<tr>
+<td style="padding: 5px 0; color: #888;">Catégorie :</td>
+<td style="padding: 5px 0; color: #333;">##ticket.category##</td>
+</tr>
+<tr>
+<td style="padding: 5px 0; color: #888;">Priorité :</td>
+<td style="padding: 5px 0; color: #333;">##ticket.priority##</td>
+</tr>
+<tr>
+    <td colspan="2" style="padding: 5px 0;">
+        <span style="color: #888;">Description :</span><br>     
+        <div style="margin-top: 5px; font-size: 14px; font-style: italic;">
+            ##ticket.content##
+        </div>
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin-top: 30px;"><a style="display: inline-block; background-color: #27ae60; color: #ffffff; text-decoration: none; padding: 12px 25px; border-radius: 4px; font-weight: bold; font-size: 14px;" href="##ticket.url##"> Suivre mon ticket en ligne </a></div>
+</div>
+<div style="background-color: #eeeeee; padding: 15px; text-align: center; font-size: 11px; color: #999;">
+<p style="margin: 0;">Ceci est un mail automatique, merci de ne pas répondre.</p>
+<p style="margin: 5px 0 0 0;">Généré par GLPI</p>
+</div>
+</div>
